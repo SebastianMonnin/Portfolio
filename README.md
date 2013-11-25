@@ -40,6 +40,8 @@ Possible sources of evidence (do any one of these):
 
 
 7 - Create an implementation of a Binary Search Tree
+
+I created a BST in my BST lab - https://github.com/SebastianMonnin/06_BST_Lab/tree/monninse
 ----
 Possible sources of evidence (do any one of these):
 
@@ -50,6 +52,8 @@ Possible sources of evidence (do any one of these):
 
 
 7 - Create an implementaiton of a Hash Table
+
+I created a hash table in my hash table lab --> https://github.com/SebastianMonnin/05_Hashing_Lab/tree/monninse
 ----
 Possible sources of evidence (do any one of these):
 
@@ -59,6 +63,8 @@ Possible sources of evidence (do any one of these):
 * Consult with Dr. Brinkman on an alternative project
 
 7 - Create an implementation of a Heap
+
+I implemented a heap in my heap lab -- https://github.com/SebastianMonnin/07_Heap_Lab/tree/monninse
 ----
 Possible sources of evidence (do any one of these):
 
@@ -69,6 +75,8 @@ Possible sources of evidence (do any one of these):
 * Consult with Dr. Brinkman on an alternative project
 
 7 - Create an implementation of either Adjanency Lists or Adjacency Matrices
+
+I created an adjanency list in my graph lab -- https://github.com/SebastianMonnin/08_Graph_Lab/tree/monninse
 ----
 Possible sources of evidence (do any one of these):
 
@@ -78,6 +86,8 @@ Possible sources of evidence (do any one of these):
 * Consult with Dr. Brinkman on an alternative project
 
 7 - Implement graph algorithms
+
+I implemented a graph algorithm with my graph lab -- https://github.com/SebastianMonnin/08_Graph_Lab/tree/monninse
 ----
 Possible sources of evidence (do any one of these):
 
