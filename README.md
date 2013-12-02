@@ -115,6 +115,8 @@ Possible sources of evidence (do one):
 
  Heap Lab --> https://github.com/SebastianMonnin/07_Heap_Lab/blob/monninse/Heap.ipp
  
+ The reasoning behind using templates is because it makes code more reuseable and generic. This helps in the long run because it makes it so we don't have to make specific functions and classes for specific arguments.Templates were used in my heap lab because all of the my functions are template functions. This makes it so each function can accept different types of arguments and not crash. Two types of templates are used in each function, Pri and T, Pri is the priority queue that the heap is built on and T is the data template, it holds the information. 
+ 
 Possible sources of evidence (do one):
 
 * Any of the labs or projects, provided it uses templates in an interesting way.
