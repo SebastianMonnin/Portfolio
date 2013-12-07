@@ -101,6 +101,29 @@ Possible sources of evidence (do any one of these):
 Possible sources of evidence (do up to 3 of these, up to 7 points for each):
 
 * Select any of the following labs, and analyze the running times for each of your methods of your data structure: Queue, Linked List, Binary Search Tree, Heap, Hash Table, Graph (Adjacency List or Adjacency Matrix, you don't have to do both, but you can if you want)
+* 
+
+Queue- 
+1. remove takes O(1) time, it is O(1) time because we are able to jump to the front item in the backing array that is going to be removed. 
+2. add takes O(1) time, unless it calls grow O(n) as long as numItems doesn't equal the backing arraysize you are able to add items to the back of the array in constant time, if numItems=backingarraysize then it takes O(n) time because you have to grow the array to make more space
+4. grow takes O(n) time. The reason for this is because every item in the original backing array must be iterated through to copy it to the bigger array
+5. getNumItems is O(1) time. Reason being that all it has to do is return numItems
+
+Linked List-
+1. Add takes O(1) if i==0 or if i==size()-1 otherwise is O(n). The reason for this is that at the start or end of the linked list it find doesn't have to iterate through. Therefore add can only go as fast as find() works
+2. remove takes O(1) if i==0 or if i==size()-1 otherwise is O(n)  The reason for this is that at the start or end of the linked list it find doesn't have to iterate through. Therefore remove() can only go as fast as find() works
+3. get  takes O(1) if i==0 or if i==size()-1 otherwise is O(n)  The reason for this is that at the start or end of the linked list it find doesn't have to iterate through. Therefore get() can only go as fast as find() works
+4. set  takes O(1) if i==0 or if i==size()-1 otherwise is O(n)  The reason for this is that at the start or end of the linked list it find doesn't have to iterate through. Therefore set() can only go as fast as find() works
+5. size() is O(1) time. Reason for this being that it is only one line that is returning a variable
+6. find takes O(1) if i==0 or if i==size()-1 otherwise is O(n) Find() takes O(1) when the item that needs to be found is at the front or back of the linked list because it would have to iterate through to find it. Otherwise find() must iterate through the entire linked list which takes O(n) time
+
+HashTable
+1. keyExists is O(1). Reason being everything in the method is linear
+2. find is O(1). Reason being no loops, everything is linear
+3. remove is O(1), Reason being that everything is constant time
+4. size is O(1). Reason being that it is just returning a variable
+5. add should be reasonably fast O(1). Use linear probing to find an open slot in the hash table. This will be O(1), on average, except when grow is called then it will be O(n)
+6. grow should be O(n). Reason being that
 
 
 5 - Describe memory management in C++, and correctly use dynamic variables, including destructors
