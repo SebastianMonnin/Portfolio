@@ -131,6 +131,11 @@ HashTable
 Possible sources of evidence (do one):
 
 * Select any of your labs or projects that uses dynamic memory, and explain how memory is managed. In particular, you must show that your program does not leak memory, and does not suffer from dangling pointers or out of bounds array access. This will probably require referring to your code, providing links.
+* 
+
+https://github.com/SebastianMonnin/04_Linked_List_Lab/blob/monninse/LinkedList.ipp
+
+In my linked list lab memory is managed through the C++ concept of pointers. Each node that is created to make the linked list is a pointer. The origina dummy node is created in the memory by the constructor using the keyword new. After that the add() method is used to create and add other nodes to the linked list which is created in memory. When the remove method is called the item that is to be removed is deleted and the items around it are linked together. To completely delete the linked list you use the destructor. It iterates through the linked list deleting each node and then finally deleting the dummynode. 
 
 
 5 - Create collection classes using templates in C++
